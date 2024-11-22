@@ -155,8 +155,7 @@ namespace linkedlist_quanly
         {
             InitializeComponent();
             postList = new SocialMediaLinkedList();
-
-            // Thêm các bài đăng mẫu với thời gian ngẫu nhiên
+           
             AddSamplePosts();
 
             InitializeUI();
@@ -164,7 +163,7 @@ namespace linkedlist_quanly
 
         private void AddSamplePosts()
         {
-            // Tạo các bài đăng mẫu với thời gian cố định
+            
             postList.AddPost(
                 "Hello, world!",
                 "https://example.com/hello.jpg",
@@ -341,7 +340,7 @@ namespace linkedlist_quanly
                     Margin = new Padding(0, 0, 0, 10)
                 };
 
-                // Header panel chứa thông tin tác giả và thời gian
+                // thông tin tác giả và thời gian
                 Panel headerPanel = new Panel
                 {
                     Size = new Size(900, 30),
